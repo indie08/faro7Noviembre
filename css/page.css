@@ -81,6 +81,7 @@ height:30%;
 	position:absolute;
 	overflow:hidden;
   }
+.cartelera .slider img{max-height:194px;}
 .header-1 {
 	position:absolute;
 	width:100%;
