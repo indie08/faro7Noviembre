@@ -68,9 +68,7 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
     </script>
 
 </head>
-<body onload="loaded()" >
-<div class="page">
-    <div class="center">
+<body  >
 
         <header>
         <div id="title">
@@ -80,21 +78,23 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
           </div>
 </header>
     <div class="X"></div><!--solo es la parte trasera del header NO QUITAR-->
+<div class="page">
+    <div class="center">
 <div class="cartelera">
 			<div id="sliderA" class="slider">
-				<img id="esp1"  src="http://www.farodeoriente.org/prueba/witches.png" />
-				<img id="esp2" src="http://www.farodeoriente.org/prueba/searing-mountain.png" />
-				<img id="esp3" src="http://www.farodeoriente.org/prueba/iphone-mockup.png" />
-				<img id="esp4" src="http://www.farodeoriente.org/prueba/taipei-fireworks.png" />
-				<img id="esp5" src="http://www.farodeoriente.org/prueba/super-squirrel.png"/>
-				<img id="esp6" src="http://www.farodeoriente.org/prueba/sep.jpg" />
+				<div id="esp1"><img src="img/witches.png" /></div>
+				<div id="esp2"><img  src="img/searing-mountain.png" /></div>
+				<div id="esp3"><img  src="img/iphone-mockup.png" /></div>
+				<div id="esp4"><img  src="img/taipei-fireworks.png" /></div>
+				<div id="esp5"><img  src="img/super-squirrel.png"/></div>
+				<div id="esp6"><img  src="img/sep.jpg" /></div>
 			</div>
 
            </div>
             <div class="header-1"><div id="header-2"><p>cartelera</p></div></div>
             
-<div id="wrapper">
-	<div id="scroller">
+<div id="cartel">
+	<div id="cartel-contenido">
     <a href="especiales.html"><div id="especiales" ><input id="esp" type="image" src="img/farito.png" /><p>Especiales</p></div></a>
     <a href="musica.html"><div id="musica"><input id="mus" type="image" src="img/concha-01.png"/><p>Música</p></div></a>
     <a href="infantil.html"><div id="infantil"><input id="inf" type="image" src="img/balon.png" /><p>Faro infantil</p></div></a>
@@ -106,6 +106,8 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
 
 	</div>
 </div>
+        </div>
+        </div>
 
   <footer>
     <div><a href="https://www.facebook.com/faro.deoriente"><input type="image" src="img/Face_White.png"/></a></div>
@@ -116,15 +118,6 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
 
       </footer>
     
-      
-      <div   class="rightTotal" id="rightTotal" >
-      			
-  </div>
-
-
-           
-        </div>
-        </div>
         
 <script src="js/jquery.jrumble.1.3.min.js"></script> 
 <script src="js/prettify.js"></script>

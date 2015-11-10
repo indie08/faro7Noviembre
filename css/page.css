@@ -1,5 +1,8 @@
 @charset "utf-8";
-*{margin:0; padding:0;}
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	width:100%;
 	height:100%;
@@ -14,7 +17,7 @@ body{
 	top:0;
 	height:9%;
 	position:fixed;
-	z-index:;
+	z-index:3;
 }
 
 footer{
@@ -22,7 +25,8 @@ footer{
 	height:9%;
 	background:black;
 	position:fixed;
-	bottom:0;		
+	bottom:0;
+	z-index:3;		
 }
 footer div{
 
@@ -33,10 +37,10 @@ footer div{
 	background:none;	
 }
 footer div input{
-	margin-left:23%;
+	margin-left:25px;
 	width:45%;
 	height:65%;
-	margin-top:15%;
+	margin-top:13px;
 	outline:none;
 }
 #back-btn{display:none;}
@@ -48,7 +52,7 @@ footer div input{
 #title {
 	height:100%;
 	color:#FFF;
-	margin:4.5% 0 0 2.5%;}
+	margin:15px 0 0 10px}
 #title img{
 	display:inline-block;
 	height:50%;
@@ -81,7 +85,7 @@ height:30%;
 	position:absolute;
 	overflow:hidden;
   }
-.cartelera .slider img{max-height:194px;}
+.cartelera .slider div img{width:100%;max-height:194px;}
 .header-1 {
 	position:absolute;
 	width:100%;
@@ -95,7 +99,6 @@ height:30%;
 	height:100%;
 
 }
-
 .page .rightTotal{
 	background-image:url(../img/fondo.jpg);
 	position:fixed;
