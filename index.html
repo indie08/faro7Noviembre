@@ -1,8 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/page.css" />
 <link rel="stylesheet" type="text/css" href="css/iscrolla.css"/>
 
@@ -68,7 +66,7 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
     </script>
 
 </head>
-<body  >
+<body onload="loaded()" >
 
         <header>
         <div id="title">
@@ -93,8 +91,8 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
            </div>
             <div class="header-1"><div id="header-2"><p>cartelera</p></div></div>
             
-<div id="cartel">
-	<div id="cartel-contenido">
+<div id="wrapper">
+	<div id="scroller">
     <a href="especiales.html"><div id="especiales" ><input id="esp" type="image" src="img/farito.png" /><p>Especiales</p></div></a>
     <a href="musica.html"><div id="musica"><input id="mus" type="image" src="img/concha-01.png"/><p>Música</p></div></a>
     <a href="infantil.html"><div id="infantil"><input id="inf" type="image" src="img/balon.png" /><p>Faro infantil</p></div></a>
