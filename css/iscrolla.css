@@ -64,8 +64,10 @@ ul,li {
 	height:100%;
 	margin-left:27%;
 	outline:none;
+	
 }
 
+#scroller a{text-decoration:none;}
 /*right-async*/
 
 #rightTotal #wrapper {
