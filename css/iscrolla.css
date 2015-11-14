@@ -14,13 +14,13 @@ ul,li {
 	bottom: 10%;
 	width: 100%;
 	height: auto;
-	background: none;
 	overflow: hidden;
+	background:  rgba(0, 0, 0, 0.4)
+	
 }
-
 #scroller {
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	width:100%;
 	background:none;
@@ -51,6 +51,21 @@ ul,li {
 	font-size: 100%;
 	margin-left:6%;
 	background-position:top;
+}
+@media only screen and (min-width:768px) and (max-width:959px){
+	#scroller div{
+	float:left;
+	display:block;
+	width:20%;
+	height:20%;
+	margin-top:0;
+	background:none;
+	font-size: 100%;
+	margin-left:6%;
+	background-position:top;
+
+}
+#scroller{margin-left:7%;}
 }
 #scroller div p {
 	color:white;
