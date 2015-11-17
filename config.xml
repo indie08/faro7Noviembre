@@ -9,7 +9,7 @@
 		<description>
 Version Beta de la fabrica de artes y oficios (FARO)		</description>
 		<author href="" email="mauricio.glez.v@gmail.com">
-Mauricio Alejandro Gonz√°lez, Diana Ocampo Mendez
+Mauricio Alejandro Gonz·lez, Diana Ocampo Mendez
 		</author>
 		<preference name="phonegap-version" value="3.7.0" />
 		<preference name="orientation" value="portrait" />
