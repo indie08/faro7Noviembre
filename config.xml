@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
@@ -9,7 +9,7 @@
 		<description>
 Version Beta de la fabrica de artes y oficios (FARO)		</description>
 		<author href="" email="mauricio.glez.v@gmail.com">
-Mauricio Alejandro Gonz·lez, Diana Ocampo Mendez
+Mauricio Alejandro Gonz√°lez, Diana Ocampo Mendez
 		</author>
 		<preference name="phonegap-version" value="3.7.0" />
 		<preference name="orientation" value="portrait" />
@@ -84,4 +84,3 @@ Mauricio Alejandro Gonz·lez, Diana Ocampo Mendez
 		<access origin="http://www.farodeoriente.org/prueba/cinco.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/seis.html" subdomains="true"  />
 	</widget>
->>>>>>> origin/master
