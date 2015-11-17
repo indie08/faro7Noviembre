@@ -11,11 +11,11 @@ ul,li {
 	position: absolute;
 	z-index: 1;
 	top:47%;
-	bottom: 10%;
+	bottom: 9%;
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	background:  rgba(0, 0, 0, 0.4)
+	background:  rgba(0, 0, 0, 0.9)
 	
 }
 #scroller {
