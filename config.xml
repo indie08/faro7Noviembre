@@ -56,11 +56,13 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<icon src="96x96.png" gap:platform="android" gap:density="xhdpi" />
 		<icon src="144x144.png" gap:platform="android" gap:density="xxhdpi" />
 		<icon src="192x192.png" gap:platform="android" gap:density="xxxhdpi" />
-		<gap:splash src="Splash%20Screen-01.png" gap:platform="android" gap:density="ldpi" />
-		<gap:splash src="Splash%20Screen-02.png" gap:platform="android" gap:density="mdpi" />
-		<gap:splash src="Splash%20Screen-03.png" gap:platform="android" gap:density="hdpi" />
-		<gap:splash src="Splash%20Screen-04.png" gap:platform="android" gap:density="xhdpi" />
-		<gap:splash src="Splash%20Screen-05.png" gap:platform="android" gap:density="xxhdpi" />
+		<platform name="android">
+  		<icon src="Splash%20Screen-01.png" gap:platform="android" gap:density="ldpi" />
+		<splash src="Splash%20Screen-02.png" gap:platform="android" gap:density="mdpi" />
+		<splash src="Splash%20Screen-03.png" gap:platform="android" gap:density="hdpi" />
+		<splash src="Splash%20Screen-04.png" gap:platform="android" gap:density="xhdpi" />
+		<splash src="Splash%20Screen-05.png" gap:platform="android" gap:density="xxhdpi" />
+		</platform>
 		<access origin="http://www.farodeoriente.org/prueba/musica.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/cineclub.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/especiales.html" subdomains="true"  />
