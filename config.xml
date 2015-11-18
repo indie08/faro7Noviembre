@@ -52,7 +52,7 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<gap:plugin name="org.apache.cordova.vibration"  />
 		
 		<platform name="android">
-		<gap:plugin name="cordova-plugin-statusbar"/>
+		
 		<preference name="StatusBarOverlaysWebView" value="true" />
 		<preference name="StatusBarBackgroundColor" value="#088A85" />
 		<preference name="StatusBarStyle" value="lightcontent" />
