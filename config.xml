@@ -70,11 +70,11 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<access origin="http://www.farodeoriente.org/prueba/artes-escenicas.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/clubhouse.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/contenido.html" subdomains="true"  />
-		<access origin="https://www.facebook.com/faro.deoriente" browserOnly="true"  />
-		<access origin="https://instagram.com/farodeoriente" browserOnly="true"  />
-		<access origin="https://www.youtube.com/user/Farodeorienteoficial" browserOnly="true"  />
-		<access origin="https://twitter.com/farodeoriente" browserOnly="true"  />
-		<access origin="https://www.flickr.com/photos/29978342@N03" browserOnly="true"  />
+		<access origin="https://www.facebook.com/faro.deoriente" />
+		<access origin="https://instagram.com/farodeoriente" />
+		<access origin="https://www.youtube.com/user/Farodeorienteoficial"/>
+		<access origin="https://twitter.com/farodeoriente"/>
+		<access origin="https://www.flickr.com/photos/29978342@N03"/>
 		<access origin="http://www.farodeoriente.org/prueba/contenido.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/uno.jpg" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/dos.jpg" subdomains="true"  />
