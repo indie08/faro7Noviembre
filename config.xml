@@ -46,7 +46,7 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<gap:platform name="android" />
 		<gap:platform name="winphone" />
 		<gap:plugin name="org.apache.cordova.dialogs"  />
-		<gap:plugin name="org.apache.cordova.inappbrowser"  />
+		
 		<gap:plugin name="org.apache.cordova.media"  />
 		<gap:plugin name="org.apache.cordova.splashscreen"  />
 		<gap:plugin name="org.apache.cordova.vibration"  />
