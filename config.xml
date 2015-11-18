@@ -10,7 +10,7 @@ version de prueba del faro de oriente		</description>
 		<author href="" email="mauricio.glez.v@gmail.com">
 Mauricio Alejandro González, Diana Ocampo Mendez
 		</author>
-		<preference name="phonegap-version" value="3.7.0" />
+		<preference name="phonegap-version" value="4.0.2" />
 		<preference name="orientation" value="portrait" />
 		<preference name="fullscreen" value="false" />
 		<preference name="target-device" value="universal" />
