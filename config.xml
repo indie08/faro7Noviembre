@@ -52,7 +52,6 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<gap:plugin name="org.apache.cordova.vibration"  />
 		
 		<platform name="android">
-			<preference name="phonegap-version" value="4.1.1" />
 		<icon src="36x36.png" gap:platform="android" gap:density="ldpi" />
 		<icon src="48X48.png" gap:platform="android" gap:density="mdpi" />
 		<icon src="72x72.png" gap:platform="android" gap:density="hdpi" />
