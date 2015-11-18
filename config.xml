@@ -20,7 +20,7 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<preference name="ios-statusbarstyle" value="default" />
 		<preference name="detect-data-types" value="true" />
 		<preference name="exit-on-suspend" value="false" />
-		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="show-splash-screen-spinner" value="false" />
 		<preference name="auto-hide-splash-screen" value="true" />
 		<preference name="EnableViewportScale" value="true" />
 		<preference name="MediaPlaybackRequiresUserAction" value="false" />
@@ -52,10 +52,6 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<gap:plugin name="org.apache.cordova.vibration"  />
 		
 		<platform name="android">
-		
-		<preference name="StatusBarOverlaysWebView" value="true" />
-		<preference name="StatusBarBackgroundColor" value="#088A85" />
-		<preference name="StatusBarStyle" value="lightcontent" />
 		<icon src="36x36.png" gap:platform="android" gap:density="ldpi" />
 		<icon src="48X48.png" gap:platform="android" gap:density="mdpi" />
 		<icon src="72x72.png" gap:platform="android" gap:density="hdpi" />
